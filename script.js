@@ -13,7 +13,7 @@ const quizDB=[
         b:"Query",
         c:"Relational Schema",
         d:"DDL(Data Definition Language)",
-        ans:"ans4 "
+        ans:"ans4"
     },
     {
         question: "Q3:What is the main function of the command interpreter?",

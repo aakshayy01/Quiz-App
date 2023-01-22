@@ -14,25 +14,29 @@ html{
     min-height: 100vh;
     display:grid;
     place-items: center;
-    background-color: hsl(206, 92%, 94% );
+     background-image: url(https://cdn.pixabay.com/photo/2016/07/06/15/29/math-1500720_960_720.jpg);
 }
 .inner-div{
-    width:40vw;
-    background-color: #fff;
+    width:60vw;
+    /* background-color: rgb(160, 169, 245); */
     padding: 3rem 8rem; 
     border-radius: 1rem;
-    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 4); 
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 4);
+    background-image: url('https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg');
+  
 }
 .inner-div h2{
     font-size: 3.5rem;
     font-weight: 600;
-    /* text-decoration:underline; */
+        /* text-decoration:underline; */
     margin: 1rem 0 3rem 0; 
+    color: #dfe6e9;
 }
 .inner-div li{
     font-size: large;
     margin-top:1rem;
     list-style: none;
+    color: #dfe6e9;
 }
 input{
     cursor: pointer;
@@ -50,18 +54,20 @@ input{
     border: none;
     border-radius: 0.8rem;
     text-transform: uppercase; 
-    background-color:rgb(89, 238, 243);
+    background-color:rgb(89, 220, 243);
     margin-top: 2rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 4); 
 }
 #submit:hover{
      background-color: rgb(101, 163, 255);
      cursor:pointer;
 }
 #showscore{
-    background-color: #dfe6e9 ;
+    background-image: url('https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg');
     margin-top: 3rem;
     padding:3rem 4rem;
     box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 4); 
+    color: #dfe6e9;
 }
 #showScore .btn:hover{
     background-color: rgb(19, 218, 218);
